@@ -173,3 +173,72 @@ body {
     box-shadow: 50px -30px 40px #6a482b;
 }
 /* advantages */
+.info {
+    height: 1000px;
+    background-color: #332c29;
+}
+.info-block {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.left-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.left-info img {
+    border-radius: 10px;
+    box-shadow: -20px -20px 20px #8c7d71;
+}
+.info-heading {
+    color: #f7f5f4;
+    font-size: 60px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.right-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    gap: 20px;
+}
+.container-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 224px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px #8c7d71;
+}
+.up-text-info {
+    color: #9e998e;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.low-text-info {
+    color: #332c29;
+    font-size: 20px;
+}
+.image-source-info {
+    font-size: 16px;
+    color: #9e998e;
+}
+.image-source-info a {
+    text-decoration: underline;
+    color: #939393;
+}
+/* quote */
+.quote-block {
+    background-image: url("images/paw.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+}
+
