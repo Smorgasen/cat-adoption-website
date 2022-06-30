@@ -51,12 +51,12 @@ body {
 .main {
     display: flex;
     height: 100vh;
+    gap: 400px;
 }
 .header-block {
     display: flex;
     flex-direction: column;
-    /* padding: 50px; */
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 80px;
     gap: 18px;
     width: 400px;
@@ -64,6 +64,8 @@ body {
 .input-block {
     display: flex;
     flex-direction: column;
+    width: 370px;
+    margin-top: 100px;
 }
 .input-header {
     color: #80644d;
@@ -83,22 +85,25 @@ body {
     gap: 10px;
     background-color: #c0ac9c;
     height: auto;
-    padding: 30px 50px 50px 50px;
+    padding: 30px 50px 30px 50px;
     margin-top: 10px;
     border-radius: 20px;
 }
 .input-block input {
-    /* display: flex; */
-    /* flex-direction: column; */
-    color: #6a482b;
-    background-color: rgb(255, 248, 231);
+    background-color: #fff8e7;
     border: none;
     border-radius: 10px;
     font-size: 16px;
     padding: 14px 18px;
-    /* gap: 10px; */
-    /* justify-content: center; */
-    /* align-items: center; */
+}
+.input #message {
+    padding-bottom: 70px;
+}
+.input #submit {
+    width: 100px;
+    color: #7b4c23;
+    text-align: center;
+    background-color: #dec68a;
 }
 .heading {
     font-family: 'Kaushan Script', cursive;
@@ -127,4 +132,25 @@ body {
     border-radius: 10px;
     border: none;
     cursor: pointer;
+}
+/* about us */
+.about-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 663px;
+    background-color: #dfded9;
+}
+.left-about {
+    display: flex;
+    flex-direction: column;
+    height: 543px;
+    width: 470px;
+}
+.right-about {
+    display: flex;
+}
+.right-about img {
+    border-radius: 50%;
+    box-shadow: 50px -30px 40px #6a482b;
 }
