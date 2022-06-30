@@ -39,6 +39,7 @@ body {
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 /* hero */
 .main {
@@ -132,6 +133,7 @@ body {
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 /* about us */
 .about-us {
@@ -191,7 +193,7 @@ body {
 }
 .left-info img {
     border-radius: 10px;
-    box-shadow: -20px -20px 20px #8c7d71;
+    box-shadow: -50px -50px 80px #8c7d71;
 }
 .info-heading {
     color: #f7f5f4;
@@ -240,5 +242,29 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 560px;
-}
+    display: flex;
+    justify-content: center;
 
+}
+.quote {
+    color: #c5a48c;
+    font-size: 60px;
+    font-family: 'Kaushan Script', cursive;
+    width: 400px;
+}
+.quote-author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    gap: 20px;
+    padding-right: 400px;
+}
+.quote-author button {
+    background-color: #fff;
+    color: #7b4c23;
+    font-weight: bold;
+    cursor: pointer;
+}
