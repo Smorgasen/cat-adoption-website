@@ -138,19 +138,38 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 663px;
+    height: 600px;
     background-color: #dfded9;
 }
 .left-about {
     display: flex;
     flex-direction: column;
-    height: 543px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 150px 0 30px 130px;
+    height: 500px;
     width: 470px;
 }
+.about-heading {
+    color: #5e4b44;
+    font-size: 60px;
+    font-family: 'Kaushan Script', cursive;
+}
+.about-text,
+.image-source-about {
+    color: #413e41;
+    font-size: 18px;
+}
+.image-source-about a {
+    text-decoration: underline;
+    color: #413e41;
+}
 .right-about {
-    display: flex;
+    margin-left: 0;
+    margin-right: 240px;
 }
 .right-about img {
     border-radius: 50%;
     box-shadow: 50px -30px 40px #6a482b;
 }
+/* advantages */
