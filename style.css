@@ -1,11 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,400;0,700;0,900;1,300&family=Satisfy&display=swap');
 body {
-    
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 0 40px;
+    background-color: #ffffff;
+}
+.right-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo {
+    font-family: 'Satisfy', cursive;
+    color: #c0ac9c;
+    font-size: 35px;
+}
+.right-header a {
+    text-decoration: none;
+    color: #c0ac9c;
+    font-weight: bold;
+    font-size: 20px;
+}
+.right-header button {
+    background-color: #c0ac9c;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* hero */
 .main {
-    background-image: url(images/background-main.png)
+    display: flex;
+    background-image: url(images/background-resize.png)
     /* background-color: #fff; */
     /* height: 100vh; */
     /* background-position: center; */
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
+}
+.heading {
+    font-family: 'Kaushan Script', cursive;
 }
