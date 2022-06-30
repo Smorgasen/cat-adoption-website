@@ -269,8 +269,42 @@ body {
     cursor: pointer;
 }
 /* subscribe */
-
-
-
-
+.subscribe {
+    display: flex;
+    background-color: #c0ac9c;
+}
+.right-subscribe {
+    display: flex;
+    flex-direction: column;
+}
+.subs-heading {
+    font-size: 36px;
+    color: #342c29;
+    font-family: 'Kaushan Script', cursive;
+}
+.subs-lower-text {
+    font-size: 18px;
+    color: #342c29;
+}
+.subs-input {
+    background-color: #342c29;
+    padding: 20px;
+    border-radius: 10px;
+}
+.subs-input input {
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 25px;
+}
+.subs-input #submit {
+    width: 100px;
+    color: #342c29;
+    text-align: center;
+    background-color: #e1d8d3;
+    padding: 10px 3px 10px 0;
+}
+.contact-info {
+    
+}
 /* footer  */
