@@ -389,3 +389,6 @@ body {
     color: #b5b2b0;
     font-size: 35px;
 }
+.bold {
+  font-weight: bold;
+}
