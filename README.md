@@ -2,6 +2,8 @@
 
 <strong> Landing page for imagined <em> cat adoption shelter</em>.</strong>
 
+Check out the website live <a href="https://smorgasen.github.io/cat-adoption-website/" target="_blank"> here </a>.
+
 <img src="images/cat-adoption-website.png" alt="Website layout">
 
 Created using: <br><br>
